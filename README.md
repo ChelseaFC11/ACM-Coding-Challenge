@@ -28,6 +28,7 @@ I did not know much about Python and Github before this challenge, so naturally 
 For the clustering algorithms, I researched through Google and found this link about 10 commonly used clustering algorithms. I looked into BIRCH and was going to use the algorithm, but one of the parameters asked for an estimate of number of clusters, which defeat the purpose of this challenge. So I researched DBSCAN and think it was good to use because it finds the number of clusters based on the parameters of minimum distance between points and the minimum number of points to make a cluster.
 
 Sources used: https://machinelearningmastery.com/clustering-algorithms-with-python/
+              
               https://scikit-learn.org/stable/auto_examples/cluster/plot_dbscan.html#sphx-glr-auto-examples-cluster-plot-dbscan-py
 
 ## Solution
