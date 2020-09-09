@@ -36,4 +36,4 @@ https://scikit-learn.org/stable/auto_examples/cluster/plot_dbscan.html#sphx-glr-
 
 The libraries I used was sklearn.cluster, matplotlib, numpy and pandas.
 
-First I read the .csv file into the dataframe. I then create the DBSCAN model and fit the data into it. By extracttring the number of unqiue labels from the model, I can determine the number of clusters in the data, which is 2. I added the 'cluster labels' column into the data frame to plot the new graph.
+First I read the .csv file into the dataframe. I then create the DBSCAN model and fit the data into it. By extracting the number of unqiue labels from the model, I can determine the number of clusters in the data, which is 2. I added the 'cluster labels' column into the data frame to plot the new graph. The number of clusters matches my prediction based on the original plot. Overall, the DBSCAN alogrithm works well with the data given.
